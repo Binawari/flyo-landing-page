@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:"Raleway", sans-serif;
+    /* padding: 20px; */
+}
+.header{
+    display: flex;
+    gap: 800px;
+    font-family:"Raleway", sans-serif;
+    margin-top: 50px;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    color:  hsl(243, 87%, 12%);
+}
+
+.first{
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+    justify-content: center;
+}
+.first .image img{
+    width: 550px;
+    height: 400px;
+}
+.text{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    gap: 30px;
+    color: hsl(243, 87%, 12%);
+}
+.second .textmob{
+    display: none;
+}
+.text h1{
+    font-size: 35px;
+}
+.text .in{
+    display: flex;
+    gap: 15px;
+}
+.text .in input{
+    height: 10px;
+    width: 300px;    
+    padding: 15px;
+}
+.text .in button{
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    font-size: 16px;
+    font-weight: 400;
+}
+.text .in button:active{
+    background-color: hsl(224, 85%, 68%);
+}
+.text .in button:hover{
+    background-color: hsl(224, 85%, 68%);
+}
+.textmob{
+    display: none;
+}
+.bg{
+    display: flex;
+    flex-direction: column;
+}
+.bg .im img{
+    width: 100%;
+}
+.second h1{
+    font-size: 35px;
+    color: hsl(243, 87%, 12%);
+}
+.second .text{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    gap: 15px;
+    color: hsl(243, 87%, 12%);
+
+}
+.second{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 150px;
+    /* margin-top: 300px; */
+    justify-content: center;
+    height: 700px;
+    background-color:hsl(240, 75%, 98%);
+}
+.second a{
+    color: hsl(170, 45%, 43%);
+    text-decoration-line: underline;
+}
+.second a:hover{
+    color: lightgreen;
+}
+.second .container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 3px 3px hsl(0, 0%, 75%) ;
+    width: 400px;
+    height: 250px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.second .container .all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.second .container img{
+    width: 20px;
+    height: 20px;
+}
+.container .founder img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.container .founder{
+    display: flex;
+    gap: 20px;
+    justify-content:start;
+}
+.container .founder p{
+    font-size: 16px;
+}
+.second .image img{
+    width: 500px;
+    height: 400px;
+}
+.third{
+    background-color: hsl(238, 22%, 44%);
+    /* margin-top: 100px; */
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    height: 300px;
+    align-items: center;
+}
+.third .text{
+    color: hsl(240, 75%, 98%);
+}
+.third .in{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.third .in input{
+    height: 10px;
+    width: 400px;    
+    padding: 15px;
+    border: none;
+     
+}
+.third .in button{
+    height: 45px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    font-size: 16px;
+    font-weight: 400;
+}
+.third .in button:hover{
+    background-color: hsl(224, 85%, 68%);
+}
+.third .in button:active{
+    background-color: hsl(224, 85%, 68%);
+}
+.third .textmob{
+    display: none;
+}
+.third .inmob{
+    display: none;
+}
+.fourth{
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(240, 75%, 98%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 370px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.all a{
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+}
+.all a:active{
+    color: hsl(238, 22%, 44%);
+}
+.all a:hover{
+    color: hsl(238, 22%, 44%);
+}
+.one img{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: hsl(240, 75%, 98%);
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.phone .on a{
+    display: flex;
+    gap: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tog{
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+    margin-right: 200px;
+}
+.icons{
+    display: flex;
+    gap: 15px;
+}
+.icons a img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.icons a img:hover{
+    background-color: hsl(238, 22%, 44%);
+}
+@media screen and (max-width: 480px) {
+
+  .header {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+.header img{
+    width: 100px;
+}
+  nav ul {
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .first {
+    flex-direction: column-reverse;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .first .image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    display: none;
+    
+  }
+.first .textmob{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 15px;
+    color:  hsl(243, 87%, 12%);
+    gap: 10px;
+}
+  .textmob h1 {
+    font-size: 24px;
+    color:  hsl(243, 87%, 12%);
+  }
+
+  .textmob .in {
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+  }
+
+  .textmob .in input,
+  .textmob .in button {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+  }
+.textmob .in button {
+    width: 300px;
+    background-color:  hsl(224, 93%, 58%);
+    color:  hsl(240, 75%, 98%);
+    border: none;
+}
+  .second {
+    flex-direction: column;
+    height: auto;
+    gap: 50px;
+    padding: 20px 0;
+    align-items: center;
+    text-align: start;
+  }
+.second h1{
+    font-size: 17px;
+    text-align: center;
+}
+  .second .image img {
+    width: 100%;
+    height: auto;
+  }
+.second .text{
+    margin-left: 20px;
+}
+.text a{
+    text-align: center;
+}
+  .second .container {
+    width: 90%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 300px;
+    font-size: 14px;
+  }
+  .second .containermob {
+    width: 330px;
+    background-color: white;
+    box-shadow: 2px 2px 3px 3px hsl(0, 0%, 75%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 250px;
+    font-size: 14px;
+  }
+  .textmob .containermob img{
+    width: 30px;
+    height: 30px;
+  }
+  .textmob .containermob .all{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+
+  }
+  .containermob .founder{
+    display: flex;
+    gap: 20px;
+  }
+  .containermob .founder img{
+    border-radius: 100%;
+  }
+  .second .textmob{
+    display: flex;
+    color: hsl(243, 87%, 12%);
+  }
+.bg{
+    margin-top: 100px;
+}
+  .third {
+    flex-direction: column;
+    gap: 30px;
+    height: 350px;
+    /* padding: 40px 20px; */
+    text-align: center;
+ 
+  }
+  .third .textmob h1{
+       color: hsl(240, 75%, 98%);
+  }
+  .third .in{
+    display: none;
+  }
+  .third .textmob{
+    display: flex;
+    flex-direction: column;
+    color: hsl(240, 75%, 98%);
+    gap: 20px;
+  }
+.third .inmob{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  .third .inmob input{
+    height: 40px;
+    width: 248px;
+    border: none;
+  }
+  .third .inmob button {
+    height: 40px;
+    width: 250px;
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    border: none;
+  }
+.fourth .all{
+    display: flex;
+    margin-left: 80px;
+
+}
+.fourth{
+    display: flex;
+    align-items: center; 
+    height: 550px;
+}
+  .tog {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 80px;
+    /* align-items: center; */
+    /* text-align:start; */
+  }
+.on{
+    width: 250px;
+}
+  .one img {
+    margin-left: 80px;
+    /* margin-top: 100px; */
+  }
+.all a{
+    text-decoration: none;
+    color: hsl(240, 75%, 98%);
+}
+.all a:active{
+    color: hsl(238, 22%, 44%);
+}
+.all a:hover{
+    color: hsl(238, 22%, 44%);
+}
+  .icons {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    /* margin-left: 160px; */
+  }
+
+  .scroll-slide-right {
+    transform: translateX(100%); /* reset in case overwritten */
+  }
+}
